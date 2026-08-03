@@ -148,33 +148,6 @@ JWT_SECRET=your_jwt_secret
 GEMINI_API_KEY=your_gemini_api_key
 ```
 
----
-
-## 📷 Screenshots
-
-### Login
-
-(Add Screenshot)
-
----
-
-### Dashboard
-
-(Add Screenshot)
-
----
-
-### Resume Upload
-
-(Add Screenshot)
-
----
-
-### AI Generated Report
-
-(Add Screenshot)
-
----
 
 ## 📌 Future Improvements
 
