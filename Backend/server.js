@@ -1,0 +1,17 @@
+require("dotenv").config();
+
+const app = require("./src/app");
+const connectToDB = require("./src/config/database");
+const { generateInterviewReport} = require("./src/services/ai.service");
+
+connectToDB();
+
+generateInterviewReport({
+    resume: "MERN Stack Developer",
+    selfDescription: "I love backend development",
+    jobDescription: "Looking for a Node.js developer"
+});
+
+app.listen(3000, () => {
+    console.log("Server is running on port 3000");
+});
